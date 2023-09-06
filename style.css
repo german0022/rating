@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 0 30px;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    
+}
+.primary{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.star{
+    background-color: hsla(217, 12%, 63%, 0.068);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star img{
+    width: 20px;
+    height: 20px;
+}
+.primary h2{
+    letter-spacing: 1.5px;
+    margin-bottom: -15px;
+}
+.primary p{
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.btns span.checked{
+    color: white;
+    transition: background-color 0s;
+    background-color: hsl(25, 97%, 53%);
+}
+.btns span{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsla(217, 12%, 63%, 0.068);
+    color: rgba(173, 216, 230, 0.596);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hover:hover{
+    cursor: pointer;
+    background-color: hsla(217, 12%, 63%, 0.267);
+}
+
+.btn button{
+    width: 100%;
+    padding: 13px;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: transform 0.3s ease;
+}
+.btn button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.secondary{
+    
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.secondary img{
+    width: 150px;
+    margin-bottom: 30px;
+}
+.selection{
+    background-color: rgba(173, 216, 230, 0.062);
+    margin-bottom: 30px;
+    border-radius: 50px;
+    padding: 5px;
+    color: hsl(25, 97%, 53%);
+}
+.secondary h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.muchotexto{
+    color: rgb(192, 192, 192);
+    font-size: 14px;
+}
+
